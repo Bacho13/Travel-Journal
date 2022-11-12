@@ -9,7 +9,7 @@ function Header() {
       <header>
         {/* <div className="icon">
         </div> */}
-        <GiEarthAmerica className="icon" />
+        <GiEarthAmerica  />
         <h1>my travel journal.</h1>
       </header>
     </>
