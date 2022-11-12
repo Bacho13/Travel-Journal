@@ -1,0 +1,99 @@
+.card {
+  display: flex;
+  width: 940px;
+  height: 365px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 52px auto;
+}
+.placeimg {
+  width: 250px;
+  height: 366px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.contetntCont {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.upperUp {
+  display: flex;
+  align-items: center;
+}
+.upperContent {
+  display: flex;
+  flex-direction: column;
+  width: 638px;
+  height: 115px;
+  justify-content: space-between;
+}
+
+.locationIcon {
+  color: #f55a5a;
+  height: 19px;
+}
+.region {
+  width: 115px;
+  height: 20px;
+  margin-left: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.24px;
+  line-height: 24px;
+  letter-spacing: 0.34em;
+  color: #2b283a;
+  text-shadow: none;
+}
+.map {
+  width: 212px;
+  height: 26px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.48px;
+  line-height: 29px;
+  text-decoration-line: underline;
+  margin-left: 24px;
+  color: #918e9b;
+}
+.city {
+  width: 652px;
+  height: 80px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #2b283a;
+}
+.date {
+  width: 638px;
+  height: 22px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.48px;
+  line-height: 24px;
+  color: #2b283a;
+  margin-bottom: 18px;
+}
+.aboutIt {
+  width: 652px;
+  height: 90px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.48;
+  line-height: 30px;
+  /* or 15px */
+  color: #2b283a;
+  overflow: hidden;
+}
