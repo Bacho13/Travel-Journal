@@ -1,6 +1,6 @@
 import React from "react";
 import "../componentCss/header.css";
-import  GiEarthAmerica  from 'react-icons/gi';
+import  {GiEarthAmerica}  from 'react-icons/gi';
 
 function Header() {
   let iconStyles = { height: "4.364vw" };
